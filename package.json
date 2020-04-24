@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "pdf": "node index.js",
+    "pdftk": "brew install https://raw.githubusercontent.com/turforlag/homebrew-cervezas/master/pdftk.rb",
+    "poppler": "brew install poppler"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "pdf-parse": "^1.1.1"
+  }
+}
